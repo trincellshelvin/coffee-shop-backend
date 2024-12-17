@@ -54,3 +54,9 @@ Include the body json raw with the necessary details to be changed. In this one,
     "__v": 0
 }
 ![Postman Put/Update Product by ID](https://res.cloudinary.com/dgls7u3iq/image/upload/v1734410986/CoffeeShopBackendTestsScreenshots/Screenshot_2024-12-16_224756_sgadz2.png)
+
+## Delete Product by ID
+
+Use Delete from the postman drop down with the following link to delete an item from your database: http://localhost:3000/products/6760fbab9515593fb4c72220. As before, you will need to get the product ID from the document entry from the database. 
+![MongoDB Deleted Product](https://res.cloudinary.com/dgls7u3iq/image/upload/v1734411959/CoffeeShopBackendTestsScreenshots/Screenshot_2024-12-16_230542_rptfv0.png)
+![Postman Deleted Product](https://res.cloudinary.com/dgls7u3iq/image/upload/v1734411960/CoffeeShopBackendTestsScreenshots/Screenshot_2024-12-16_230515_virmwq.png)
