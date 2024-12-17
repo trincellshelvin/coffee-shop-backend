@@ -1,5 +1,24 @@
 # Coffee Shop Backend Testing
 
+## Setup the project for the Backend development as follows:
+- Admin Command Prompt (Terminal)
+- cd OneDrive (only if you use this service on your computer)
+- cd Desktop
+- cd "folder name where all of your projects are saved"
+- mkdir coffee-shop-backend
+- cd coffee-shop-backend
+- npm init -y
+- npm install express mongoose
+- code . to open vscode
+- npm i gitignoew
+- npm install --save-dev nodemon
+- npm i express-rate-limit
+- Make sure that "scripts": {"start": "node index.js", "dev": "nodemon index.js"} are in the package.json file or the server will not start. 
+-Install other desired dependencies to your project. 
+
+## Starting the Server
+To ensure that you are able to run all testing properly. Be sure to run the command once the project is opened with npm run dev to start the server or postman will not run properly. 
+
 ## Get All Products
 Use Get in the drop down with this link: http://localhost:3000/products. No body json raw needed to receive the following....
 ![Get All Products](https://res.cloudinary.com/dgls7u3iq/image/upload/v1734409761/CoffeeShopBackendTestsScreenshots/coffeeshopbackendinitialgetproductstest_x91350.png)
